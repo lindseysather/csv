@@ -56,6 +56,7 @@ fig.autofmt_xdate()
 
 plt.show()
 
+
 plt.subplot(2,1,1)
 #2=number of rows; 1=number of columns; 1 refers to the first graph
 plt.plot(dates,highs,c='red')
@@ -66,5 +67,6 @@ plt.plot(dates,lows,c='blue')
 plt.title("Lows")
 
 plt.suptitle("Highs and Lows of Sitka, Alaska")
+fig.autofmt_xdate()
 
 plt.show()
